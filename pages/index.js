@@ -10,7 +10,7 @@ export default function Home() {
       <main className="bg-slate-100">
         <div className="h-screen w-full flex justify-center items-center">
           <button
-            onClick={() => signIn("google")}
+            onClick={() => signIn()}
             className="bg-blue-600 text-white text-[18px] font-medium p-4 rounded"
           >
             Sign In With Google
